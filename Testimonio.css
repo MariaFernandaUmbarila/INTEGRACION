@@ -42,13 +42,16 @@
   margin: 19px auto 0;
 }
 
+/*margin: 33px 35px 0 auto;
+padding: 10px 28px 10px 27px;*/
+
 .u-section-1 .u-btn-1 {
   letter-spacing: 1px;
   align-self: center;
   transition-duration: 0.5s;
   box-shadow: -2px 2px 8px 0px rgba(128,128,128,1);
   background-image: none;
-  margin: 33px 35px 0 auto;
+  margin: 35px 200px 50px auto;
   padding: 10px 28px 10px 27px;
 }
 
