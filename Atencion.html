@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <title>Atención al ciudadano</title>
-    <link rel="stylesheet" href="nicepage.css" media="screen">
+    <link rel="stylesheet" href="estilos.css" media="screen">
     <link rel="stylesheet" href="Atencion.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="interactivo.js" defer=""></script>
@@ -19,57 +19,60 @@
 
   <body data-home-page="Atencion.html" data-home-page-title="Atencion" class="u-body u-xl-mode" data-lang="es">
     
-    <!--BARRA SUPERIOR / HEADER-->
+    <!--HEADER-->
     <header class="u-clearfix u-header u-header" id="sec-a7b1">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+
+        <!--HOME-->
+        <a href="Inicio.html" class="u-align-left u-image u-logo u-image-1" data-image-width="600" data-image-height="600">
+          <img src="images/home-logo.png" class="u-logo-image u-logo-image-1">
+        </a>
+
         <!--MENÚ-->
-        <nav class="u-menu u-menu-hamburger u-offcanvas u-menu-1" data-responsive-from="XL">
-          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;" wfd-invisible="true">
-            <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+        <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1" data-responsive-from="MD" data-position="">
+          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700; text-transform: uppercase;">
+            <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-borders u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
               <svg class="u-svg-link" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
-              <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
-                <g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect></g>
-              </svg>
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect></symbol></defs></svg>
             </a>
           </div>
           <div class="u-custom-menu u-nav-container">
-            <ul class="u-nav u-unstyled u-nav-1">
-              <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Inicio.html" style="padding: 10px 20px;">Inicio</a></li>
-              <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Atencion.html" target="_blank" style="padding: 10px 20px;">Atención</a></li>
-              <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Preguntas.html" target="_blank" style="padding: 10px 20px;">Hacer una pregunta</a></li>
-              <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Empresas_Involucradas.html" target="_blank" style="padding: 10px 20px;">Empresas involucradas</a></li>
+            <ul class="u-nav u-spacing-30 u-unstyled u-nav-1">
+              <li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="Inicio.html" style="padding: 10px 0px;">Inicio</a></li>
+              <li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="Testimonio.html" style="padding: 10px 0px;">Testimonios</a></li>
+              <li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="Empresas_Involucradas.html" style="padding: 10px 0px;">Empresas involucradas</a></li>
+              <li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="Atencion.html" style="padding: 10px 0px;">Atención al ciudadano</a></li>
+              <li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="Preguntas.html" style="padding: 10px 0px;">Preguntas</a></li>
             </ul>
           </div>
-          <div class="u-custom-menu u-nav-container-collapse" wfd-invisible="true">
-            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
-              <div class="u-inner-container-layout u-sidenav-overflow">
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-container-style u-inner-container-layout u-opacity u-opacity-90 u-palette-1-dark-3 u-sidenav">
+              <div class="u-sidenav-overflow">
                 <div class="u-menu-close"></div>
-                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
+                <ul class="u-align-center u-menu-one-level u-nav u-popupmenu-items u-spacing-10 u-unstyled u-nav-2">
                   <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Inicio.html">Inicio</a></li>
-                  <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Atencion.html" target="_blank">Atención</a></li>
-                  <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Preguntas.html" target="_blank">Hacer una pregunta</a></li>
-                  <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Empresas_Involucradas.html" target="_blank">Empresas involucradas</a></li>
+                  <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Testimonio.html">Testimonios</a></li>
+                  <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Empresas_Involucradas.html">Empresas involucradas</a></li>
+                  <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Atencion.html">Atención al ciudadano</a></li>
+                  <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Preguntas.html">Preguntas</a></li>
                 </ul>
               </div>
             </div>
-            <div class="u-black u-menu-overlay u-opacity u-opacity-70" wfd-invisible="true"></div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
           </div>
         </nav>
 
-        <!--LOGOS Y VÍNCULOS-->
-        <a href="Inicio.html" class="u-image u-logo u-image-1" data-image-width="600" data-image-height="600" title="Inicio">
-          <img src="images/home-logo.png" class="u-logo-image u-logo-image-1">
+        <!--LOGOS-->
+        <a href="https://www.instagram.com/restituciondetierras/?hl=es-la" class="u-image u-logo u-image-2" data-image-width="920" data-image-height="920" title="Instagram URT" target="_blank">
+          <img src="images/Instagram-Icon.png" class="u-logo-image u-logo-image-2">
         </a>
-        <a href="https://www.un.org/sustainabledevelopment/es/peace-justice/" class="u-image u-logo u-image-2" data-image-width="290" data-image-height="290" title="Sobre el ODS de la Paz" target="_blank">
-          <img src="images/ods.png" class="u-logo-image u-logo-image-2">
-        </a>
-        <a href="https://www.facebook.com/RestitucionDeTierras" class="u-image u-logo u-image-3" data-image-width="640" data-image-height="640" title="Restitución de Tierras en Facebook" target="_blank">
+        <a href="https://www.facebook.com/RestitucionDeTierras" class="u-image u-logo u-image-3" data-image-width="640" data-image-height="640" title="Facebook URT" target="_blank">
           <img src="images/facebook.png" class="u-logo-image u-logo-image-3">
         </a>
-        <a href="https://www.youtube.com/user/restituciontierras" class="u-image u-logo u-image-4" data-image-width="512" data-image-height="512" title="Restitución de Tierras en YouTube" target="_blank">
+        <a href="https://www.youtube.com/user/restituciontierras" class="u-image u-logo u-image-4" data-image-width="512" data-image-height="512" title="YouTube URT" target="_blank">
           <img src="images/youtube.png" class="u-logo-image u-logo-image-4">
         </a>
+
       </div>
     </header>
 
@@ -384,13 +387,76 @@
       </div>
     </section>
     
-    <<!--PIE DE PÁGINA-->
-    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-6c1d">
+    <!--LINKS EXTERNOS-->
+    <footer class="u-align-center u-clearfix u-footer u-white u-footer" id="sec-6c1d">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <p class="u-text u-text-1">Enlaces de interés</p>
-        <img class="u-image u-image-default u-image-1" src="images/minjusticialogo.jpg" alt="" data-image-width="338" data-image-height="70" data-href="https://www.minjusticia.gov.co/programas/justicia-transicional/ley-victimas-restitucion-tierras" data-target="_blank">
-        <img class="u-image u-image-default u-image-2" src="images/madrlogo.png" alt="" data-image-width="296" data-image-height="50" data-href="https://www.minagricultura.gov.co/atencion-ciudadano/preguntas-frecuentes/Paginas/Restitucion-de-Tierras.aspx" data-target="_blank">
-        <img class="u-image u-image-contain u-image-round u-preserve-proportions u-radius-10 u-image-3" src="images/urtlogo.png" alt="" data-image-width="254" data-image-height="121" data-href="https://www.urt.gov.co/" data-target="_blank">
+        <div class="u-expanded-width u-gallery u-layout-grid u-lightbox u-no-transition u-show-text-none u-gallery-1" id="carousel-adc6">
+          <div class="u-gallery-inner u-gallery-inner-1" role="listbox">
+            <div class="u-effect-hover-zoom u-gallery-item u-shape-rectangle u-gallery-item-1" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
+              <div class="u-back-slide">
+                <img class="u-back-image u-expanded u-image-contain" src="images/Info.png" data-image-width="273" data-image-height="94">
+              </div>
+              <div class="u-align-center u-over-slide u-shading u-over-slide-1">
+                <h3 class="u-gallery-heading"></h3>
+                <p class="u-gallery-text"></p>
+              </div>
+            </div>
+            <div class="u-effect-hover-zoom u-gallery-item u-shape-rectangle u-gallery-item-2" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
+              <div class="u-back-slide">
+                <img class="u-back-image u-expanded u-image-contain" src="images/Info1.png" data-image-width="211" data-image-height="100">
+              </div>
+              <div class="u-align-center u-over-slide u-shading u-over-slide-2">
+                <h3 class="u-gallery-heading"></h3>
+                <p class="u-gallery-text"></p>
+              </div>
+            </div>
+            <div class="u-effect-hover-zoom u-gallery-item u-shape-rectangle u-gallery-item-3" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
+              <div class="u-back-slide">
+                <img class="u-back-image u-expanded u-image-contain" src="images/Info2.png" data-image-width="203" data-image-height="98">
+              </div>
+              <div class="u-align-center u-over-slide u-shading u-over-slide-3">
+                <h3 class="u-gallery-heading"></h3>
+                <p class="u-gallery-text"></p>
+              </div>
+            </div>
+            <div class="u-effect-hover-zoom u-gallery-item u-shape-rectangle u-gallery-item-4" data-image-width="215" data-image-height="96">
+              <div class="u-back-slide">
+                <img class="u-back-image u-expanded u-image-contain" src="images/Info3.png">
+              </div>
+              <div class="u-align-center u-over-slide u-shading u-over-slide-4">
+                <h3 class="u-gallery-heading"></h3>
+                <p class="u-gallery-text"></p>
+              </div>
+            </div>
+            <div class="u-effect-hover-zoom u-gallery-item u-shape-rectangle u-gallery-item-5" data-image-width="287" data-image-height="95">
+              <div class="u-back-slide">
+                <img class="u-back-image u-expanded u-image-contain" src="images/Info4.png">
+              </div>
+              <div class="u-align-center u-over-slide u-shading u-over-slide-5">
+                <h3 class="u-gallery-heading"></h3>
+                <p class="u-gallery-text"></p>
+              </div>
+            </div>
+            <div class="u-effect-hover-zoom u-gallery-item u-shape-rectangle u-gallery-item-6" data-image-width="283" data-image-height="99">
+              <div class="u-back-slide">
+                <img class="u-back-image u-expanded u-image-contain" src="images/Info5.png">
+              </div>
+              <div class="u-align-center u-over-slide u-shading u-over-slide-6">
+                <h3 class="u-gallery-heading"></h3>
+                <p class="u-gallery-text"></p>
+              </div>
+            </div>
+            <div class="u-effect-hover-zoom u-gallery-item u-shape-rectangle u-gallery-item-7" data-image-width="317" data-image-height="101">
+              <div class="u-back-slide">
+                <img class="u-back-image u-expanded u-image-contain" src="images/Info6.png">
+              </div>
+              <div class="u-align-center u-over-slide u-shading u-over-slide-7">
+                <h3 class="u-gallery-heading"></h3>
+                <p class="u-gallery-text"></p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
     
